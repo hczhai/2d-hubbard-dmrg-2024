@@ -1,0 +1,541 @@
+MPI INIT: rank 0 of 6
+MPI INIT: rank 2 of 6
+MPI INIT: rank 5 of 6
+MPI INIT: rank 4 of 6
+MPI INIT: rank 1 of 6
+MPI INIT: rank 3 of 6
+NELEC = 90
+U = 8
+NELEC = 90
+U = 8
+NELEC = 90
+U = 8
+NELEC = 90
+U = 8
+NELEC = 90
+U = 8
+NELEC = 90
+U = 8
+
+Build MPO | Nsites =    96 | Nterms =        238 | Algorithm = FastBIP | Cutoff = 1.00e-14
+ Site =     0 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        4 SPT = 0.0000 Tmvc = 0.000 T = 0.392
+ Site =     1 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.5625 Tmvc = 0.000 T = 0.000
+ Site =     2 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        5 SPT = 0.6875 Tmvc = 0.000 T = 0.000
+ Site =     3 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        5 SPT = 0.6875 Tmvc = 0.000 T = 0.000
+ Site =     4 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        5 SPT = 0.6875 Tmvc = 0.000 T = 0.000
+ Site =     5 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        5 SPT = 0.6875 Tmvc = 0.000 T = 0.000
+ Site =     6 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =     7 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =     8 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =     9 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    10 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    11 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    12 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    13 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        9 SPT = 0.7500 Tmvc = 0.000 T = 0.000
+ Site =    14 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    15 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    16 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    17 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    18 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    19 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    20 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    21 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    22 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    23 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    24 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    25 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        9 SPT = 0.7500 Tmvc = 0.000 T = 0.000
+ Site =    26 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    27 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    28 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    29 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    30 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    31 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    32 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    33 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    34 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    35 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    36 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    37 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        9 SPT = 0.7500 Tmvc = 0.000 T = 0.000
+ Site =    38 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    39 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    40 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    41 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    42 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    43 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    44 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    45 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    46 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    47 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    48 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    49 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        9 SPT = 0.7500 Tmvc = 0.000 T = 0.000
+ Site =    50 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    51 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    52 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    53 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    54 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    55 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    56 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    57 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    58 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    59 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    60 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    61 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        9 SPT = 0.7500 Tmvc = 0.000 T = 0.000
+ Site =    62 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    63 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    64 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    65 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    66 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    67 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    68 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    69 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    70 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    71 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    72 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    73 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        9 SPT = 0.7500 Tmvc = 0.000 T = 0.000
+ Site =    74 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    75 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    76 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    77 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    78 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    79 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    80 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    81 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    82 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    83 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    84 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    85 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        9 SPT = 0.7500 Tmvc = 0.000 T = 0.000
+ Site =    86 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    87 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    88 /    96 .. Mmpo =     6 DW = 0.00e+00 NNZ =        7 SPT = 0.8056 Tmvc = 0.000 T = 0.000
+ Site =    89 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        7 SPT = 0.7083 Tmvc = 0.000 T = 0.000
+ Site =    90 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        5 SPT = 0.6875 Tmvc = 0.000 T = 0.000
+ Site =    91 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        5 SPT = 0.6875 Tmvc = 0.000 T = 0.000
+ Site =    92 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        5 SPT = 0.6875 Tmvc = 0.000 T = 0.000
+ Site =    93 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        5 SPT = 0.6875 Tmvc = 0.000 T = 0.000
+ Site =    94 /    96 .. Mmpo =     4 DW = 0.00e+00 NNZ =        5 SPT = 0.6875 Tmvc = 0.000 T = 0.000
+ Site =    95 /    96 .. Mmpo =     1 DW = 0.00e+00 NNZ =        4 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =      0.401 Tmvc-total = 0.001 MPO bond dimension =     6 MaxDW = 0.00e+00
+NNZ =          662 SIZE =         2856 SPT = 0.7682
+
+Rank =     0 Ttotal =      0.404 MPO method = FastBipartite bond dimension =       6 NNZ =          662 SIZE =         2856 SPT = 0.7682
+Rank =     2 Ttotal =      0.242 MPO method = FastBipartite bond dimension =       6 NNZ =          574 SIZE =         1848 SPT = 0.6894
+Rank =     4 Ttotal =      0.243 MPO method = FastBipartite bond dimension =       4 NNZ =          454 SIZE =          952 SPT = 0.5231
+Rank =     3 Ttotal =      0.240 MPO method = FastBipartite bond dimension =       4 NNZ =          514 SIZE =         1344 SPT = 0.6176
+Rank =     5 Ttotal =      0.243 MPO method = FastBipartite bond dimension =       4 NNZ =          378 SIZE =          590 SPT = 0.3593
+Rank =     1 Ttotal =      0.242 MPO method = FastBipartite bond dimension =       6 NNZ =          634 SIZE =         2432 SPT = 0.7393
+npdm string = (C+D)0
+npdm string = (C+D)0
+npdm string = (C+D)0
+npdm string = (C+D)0
+npdm string = (C+D)0
+npdm string = (C+D)0
+
+Build NPDM MPO | Nsites =    96 | Nmaxops =  2 | SymbolFree = T | Cutoff = 0.00e+00
+  -- Parallel | Size =   6 | Rank =   0 | ExeModel = Distributed | Center =    94
+ Site =     0 /    96 .. L =        4 (      1)  R =        1 (      1)* M =            0 Tmid = 0.000 T = 0.240
+ Site =     1 /    96 .. L =        4 (      1)  R =      191 (     31)* M =          191 (          30 =  15%) Tmid = 0.000 T = 0.000
+ Site =     2 /    96 .. L =        4 (      1)  R =      189 (     31)* M =          189 (          30 =  15%) Tmid = 0.000 T = 0.000
+ Site =     3 /    96 .. L =        4 (      1)  R =      187 (     31)* M =          187 (          30 =  16%) Tmid = 0.000 T = 0.000
+ Site =     4 /    96 .. L =        4 (      1)  R =      185 (     31)* M =          185 (          30 =  16%) Tmid = 0.000 T = 0.000
+ Site =     5 /    96 .. L =        4 (      1)  R =      183 (     31)* M =          183 (          30 =  16%) Tmid = 0.000 T = 0.000
+ Site =     6 /    96 .. L =        4 (      1)  R =      181 (     31)* M =          181 (          30 =  16%) Tmid = 0.000 T = 0.000
+ Site =     7 /    96 .. L =        4 (      1)  R =      179 (     29)* M =          179 (          28 =  15%) Tmid = 0.000 T = 0.000
+ Site =     8 /    96 .. L =        4 (      1)  R =      177 (     29)* M =          177 (          28 =  15%) Tmid = 0.000 T = 0.000
+ Site =     9 /    96 .. L =        4 (      1)  R =      175 (     29)* M =          175 (          28 =  16%) Tmid = 0.000 T = 0.000
+ Site =    10 /    96 .. L =        4 (      1)  R =      173 (     29)* M =          173 (          28 =  16%) Tmid = 0.000 T = 0.000
+ Site =    11 /    96 .. L =        4 (      1)  R =      171 (     29)* M =          171 (          28 =  16%) Tmid = 0.000 T = 0.000
+ Site =    12 /    96 .. L =        4 (      1)  R =      169 (     29)* M =          169 (          28 =  16%) Tmid = 0.000 T = 0.000
+ Site =    13 /    96 .. L =        4 (      1)  R =      167 (     27)* M =          167 (          26 =  15%) Tmid = 0.000 T = 0.000
+ Site =    14 /    96 .. L =        4 (      1)  R =      165 (     27)* M =          165 (          26 =  15%) Tmid = 0.000 T = 0.000
+ Site =    15 /    96 .. L =        4 (      1)  R =      163 (     27)* M =          163 (          26 =  15%) Tmid = 0.000 T = 0.000
+ Site =    16 /    96 .. L =        4 (      1)  R =      161 (     27)* M =          161 (          26 =  16%) Tmid = 0.000 T = 0.000
+ Site =    17 /    96 .. L =        4 (      1)  R =      159 (     27)* M =          159 (          26 =  16%) Tmid = 0.000 T = 0.000
+ Site =    18 /    96 .. L =        4 (      1)  R =      157 (     27)* M =          157 (          26 =  16%) Tmid = 0.000 T = 0.000
+ Site =    19 /    96 .. L =        4 (      1)  R =      155 (     25)* M =          155 (          24 =  15%) Tmid = 0.000 T = 0.000
+ Site =    20 /    96 .. L =        4 (      1)  R =      153 (     25)* M =          153 (          24 =  15%) Tmid = 0.000 T = 0.000
+ Site =    21 /    96 .. L =        4 (      1)  R =      151 (     25)* M =          151 (          24 =  15%) Tmid = 0.000 T = 0.000
+ Site =    22 /    96 .. L =        4 (      1)  R =      149 (     25)* M =          149 (          24 =  16%) Tmid = 0.000 T = 0.000
+ Site =    23 /    96 .. L =        4 (      1)  R =      147 (     25)* M =          147 (          24 =  16%) Tmid = 0.000 T = 0.000
+ Site =    24 /    96 .. L =        4 (      1)  R =      145 (     25)* M =          145 (          24 =  16%) Tmid = 0.000 T = 0.000
+ Site =    25 /    96 .. L =        4 (      1)  R =      143 (     23)* M =          143 (          22 =  15%) Tmid = 0.000 T = 0.000
+ Site =    26 /    96 .. L =        4 (      1)  R =      141 (     23)* M =          141 (          22 =  15%) Tmid = 0.000 T = 0.000
+ Site =    27 /    96 .. L =        4 (      1)  R =      139 (     23)* M =          139 (          22 =  15%) Tmid = 0.000 T = 0.000
+ Site =    28 /    96 .. L =        4 (      1)  R =      137 (     23)* M =          137 (          22 =  16%) Tmid = 0.000 T = 0.000
+ Site =    29 /    96 .. L =        4 (      1)  R =      135 (     23)* M =          135 (          22 =  16%) Tmid = 0.000 T = 0.000
+ Site =    30 /    96 .. L =        4 (      1)  R =      133 (     23)* M =          133 (          22 =  16%) Tmid = 0.000 T = 0.000
+ Site =    31 /    96 .. L =        4 (      1)  R =      131 (     21)* M =          131 (          20 =  15%) Tmid = 0.000 T = 0.000
+ Site =    32 /    96 .. L =        4 (      1)  R =      129 (     21)* M =          129 (          20 =  15%) Tmid = 0.000 T = 0.000
+ Site =    33 /    96 .. L =        4 (      1)  R =      127 (     21)* M =          127 (          20 =  15%) Tmid = 0.000 T = 0.000
+ Site =    34 /    96 .. L =        4 (      1)  R =      125 (     21)* M =          125 (          20 =  16%) Tmid = 0.000 T = 0.000
+ Site =    35 /    96 .. L =        4 (      1)  R =      123 (     21)* M =          123 (          20 =  16%) Tmid = 0.000 T = 0.000
+ Site =    36 /    96 .. L =        4 (      1)  R =      121 (     21)* M =          121 (          20 =  16%) Tmid = 0.000 T = 0.000
+ Site =    37 /    96 .. L =        4 (      1)  R =      119 (     19)* M =          119 (          18 =  15%) Tmid = 0.000 T = 0.000
+ Site =    38 /    96 .. L =        4 (      1)  R =      117 (     19)* M =          117 (          18 =  15%) Tmid = 0.000 T = 0.000
+ Site =    39 /    96 .. L =        4 (      1)  R =      115 (     19)* M =          115 (          18 =  15%) Tmid = 0.000 T = 0.000
+ Site =    40 /    96 .. L =        4 (      1)  R =      113 (     19)* M =          113 (          18 =  15%) Tmid = 0.000 T = 0.000
+ Site =    41 /    96 .. L =        4 (      1)  R =      111 (     19)* M =          111 (          18 =  16%) Tmid = 0.000 T = 0.000
+ Site =    42 /    96 .. L =        4 (      1)  R =      109 (     19)* M =          109 (          18 =  16%) Tmid = 0.000 T = 0.000
+ Site =    43 /    96 .. L =        4 (      1)  R =      107 (     17)* M =          107 (          16 =  14%) Tmid = 0.000 T = 0.000
+ Site =    44 /    96 .. L =        4 (      1)  R =      105 (     17)* M =          105 (          16 =  15%) Tmid = 0.000 T = 0.000
+ Site =    45 /    96 .. L =        4 (      1)  R =      103 (     17)* M =          103 (          16 =  15%) Tmid = 0.000 T = 0.000
+ Site =    46 /    96 .. L =        4 (      1)  R =      101 (     17)* M =          101 (          16 =  15%) Tmid = 0.000 T = 0.000
+ Site =    47 /    96 .. L =        4 (      1)  R =       99 (     17)* M =           99 (          16 =  16%) Tmid = 0.000 T = 0.000
+ Site =    48 /    96 .. L =        4 (      1)  R =       97 (     17)* M =           97 (          16 =  16%) Tmid = 0.000 T = 0.000
+ Site =    49 /    96 .. L =        4 (      1)  R =       95 (     15)* M =           95 (          14 =  14%) Tmid = 0.000 T = 0.000
+ Site =    50 /    96 .. L =        4 (      1)  R =       93 (     15)* M =           93 (          14 =  15%) Tmid = 0.000 T = 0.000
+ Site =    51 /    96 .. L =        4 (      1)  R =       91 (     15)* M =           91 (          14 =  15%) Tmid = 0.000 T = 0.000
+ Site =    52 /    96 .. L =        4 (      1)  R =       89 (     15)* M =           89 (          14 =  15%) Tmid = 0.000 T = 0.000
+ Site =    53 /    96 .. L =        4 (      1)  R =       87 (     15)* M =           87 (          14 =  16%) Tmid = 0.000 T = 0.000
+ Site =    54 /    96 .. L =        4 (      1)  R =       85 (     15)* M =           85 (          14 =  16%) Tmid = 0.000 T = 0.000
+ Site =    55 /    96 .. L =        4 (      1)  R =       83 (     13)* M =           83 (          12 =  14%) Tmid = 0.000 T = 0.000
+ Site =    56 /    96 .. L =        4 (      1)  R =       81 (     13)* M =           81 (          12 =  14%) Tmid = 0.000 T = 0.000
+ Site =    57 /    96 .. L =        4 (      1)  R =       79 (     13)* M =           79 (          12 =  15%) Tmid = 0.000 T = 0.000
+ Site =    58 /    96 .. L =        4 (      1)  R =       77 (     13)* M =           77 (          12 =  15%) Tmid = 0.000 T = 0.000
+ Site =    59 /    96 .. L =        4 (      1)  R =       75 (     13)* M =           75 (          12 =  16%) Tmid = 0.000 T = 0.000
+ Site =    60 /    96 .. L =        4 (      1)  R =       73 (     13)* M =           73 (          12 =  16%) Tmid = 0.000 T = 0.000
+ Site =    61 /    96 .. L =        4 (      1)  R =       71 (     11)* M =           71 (          10 =  14%) Tmid = 0.000 T = 0.000
+ Site =    62 /    96 .. L =        4 (      1)  R =       69 (     11)* M =           69 (          10 =  14%) Tmid = 0.000 T = 0.000
+ Site =    63 /    96 .. L =        4 (      1)  R =       67 (     11)* M =           67 (          10 =  14%) Tmid = 0.000 T = 0.000
+ Site =    64 /    96 .. L =        4 (      1)  R =       65 (     11)* M =           65 (          10 =  15%) Tmid = 0.000 T = 0.000
+ Site =    65 /    96 .. L =        4 (      1)  R =       63 (     11)* M =           63 (          10 =  15%) Tmid = 0.000 T = 0.000
+ Site =    66 /    96 .. L =        4 (      1)  R =       61 (     11)* M =           61 (          10 =  16%) Tmid = 0.000 T = 0.000
+ Site =    67 /    96 .. L =        4 (      1)  R =       59 (      9)* M =           59 (           8 =  13%) Tmid = 0.000 T = 0.000
+ Site =    68 /    96 .. L =        4 (      1)  R =       57 (      9)* M =           57 (           8 =  14%) Tmid = 0.000 T = 0.000
+ Site =    69 /    96 .. L =        4 (      1)  R =       55 (      9)* M =           55 (           8 =  14%) Tmid = 0.000 T = 0.000
+ Site =    70 /    96 .. L =        4 (      1)  R =       53 (      9)* M =           53 (           8 =  15%) Tmid = 0.000 T = 0.000
+ Site =    71 /    96 .. L =        4 (      1)  R =       51 (      9)* M =           51 (           8 =  15%) Tmid = 0.000 T = 0.000
+ Site =    72 /    96 .. L =        4 (      1)  R =       49 (      9)* M =           49 (           8 =  16%) Tmid = 0.000 T = 0.000
+ Site =    73 /    96 .. L =        4 (      1)  R =       47 (      7)* M =           47 (           6 =  12%) Tmid = 0.000 T = 0.000
+ Site =    74 /    96 .. L =        4 (      1)  R =       45 (      7)* M =           45 (           6 =  13%) Tmid = 0.000 T = 0.000
+ Site =    75 /    96 .. L =        4 (      1)  R =       43 (      7)* M =           43 (           6 =  13%) Tmid = 0.000 T = 0.000
+ Site =    76 /    96 .. L =        4 (      1)  R =       41 (      7)* M =           41 (           6 =  14%) Tmid = 0.000 T = 0.000
+ Site =    77 /    96 .. L =        4 (      1)  R =       39 (      7)* M =           39 (           6 =  15%) Tmid = 0.000 T = 0.000
+ Site =    78 /    96 .. L =        4 (      1)  R =       37 (      7)* M =           37 (           6 =  16%) Tmid = 0.000 T = 0.000
+ Site =    79 /    96 .. L =        4 (      1)  R =       35 (      5)* M =           35 (           4 =  11%) Tmid = 0.000 T = 0.000
+ Site =    80 /    96 .. L =        4 (      1)  R =       33 (      5)* M =           33 (           4 =  12%) Tmid = 0.000 T = 0.000
+ Site =    81 /    96 .. L =        4 (      1)  R =       31 (      5)* M =           31 (           4 =  12%) Tmid = 0.000 T = 0.000
+ Site =    82 /    96 .. L =        4 (      1)  R =       29 (      5)* M =           29 (           4 =  13%) Tmid = 0.000 T = 0.000
+ Site =    83 /    96 .. L =        4 (      1)  R =       27 (      5)* M =           27 (           4 =  14%) Tmid = 0.000 T = 0.000
+ Site =    84 /    96 .. L =        4 (      1)  R =       25 (      5)* M =           25 (           4 =  16%) Tmid = 0.000 T = 0.000
+ Site =    85 /    96 .. L =        4 (      1)  R =       23 (      3)* M =           23 (           2 =   8%) Tmid = 0.000 T = 0.000
+ Site =    86 /    96 .. L =        4 (      1)  R =       21 (      3)* M =           21 (           2 =   9%) Tmid = 0.000 T = 0.000
+ Site =    87 /    96 .. L =        4 (      1)  R =       19 (      3)* M =           19 (           2 =  10%) Tmid = 0.000 T = 0.000
+ Site =    88 /    96 .. L =        4 (      1)  R =       17 (      3)* M =           17 (           2 =  11%) Tmid = 0.000 T = 0.000
+ Site =    89 /    96 .. L =        4 (      1)  R =       15 (      3)* M =           15 (           2 =  13%) Tmid = 0.000 T = 0.000
+ Site =    90 /    96 .. L =        4 (      1)  R =       13 (      3)* M =           13 (           2 =  15%) Tmid = 0.000 T = 0.000
+ Site =    91 /    96 .. L =        4 (      1)  R =       11 (      1)* M =           11 (           0 =   0%) Tmid = 0.000 T = 0.000
+ Site =    92 /    96 .. L =        4 (      1)  R =        9 (      1)* M =            9 (           0 =   0%) Tmid = 0.000 T = 0.000
+ Site =    93 /    96 .. L =        4 (      1)  R =        7 (      1)* M =            7 (           0 =   0%) Tmid = 0.000 T = 0.000
+ Site =    94 /    96 .. L =        4 (      1)* R =        5 (      1)* M =            5 (           0 =   0%) Tmid = 0.000 T = 0.000
+ Site =    95 /    96 .. L =        1 (      1)* R =        4 (      2)  M =            4 (           1 =  25%) Tmid = 0.000 T = 0.000
+Ttotal =      0.254
+
+Environment initialization | Nsites =    96 | Center =     0
+ INIT-R <-- Site =   94 ..  Bmem =    80 B Rmem =    80 B T = 0.07
+ INIT-R <-- Site =   93 ..  Bmem =    80 B Rmem =   160 B T = 0.25
+ INIT-R <-- Site =   92 ..  Bmem =   160 B Rmem = 1.37 KB T = 0.03
+ INIT-R <-- Site =   91 ..  Bmem = 1.37 KB Rmem = 13.8 KB T = 0.03
+ INIT-R <-- Site =   90 ..  Bmem = 13.8 KB Rmem =  152 KB T = 0.11
+ INIT-R <-- Site =   89 ..  Bmem =  152 KB Rmem = 6.91 MB T = 0.15
+ INIT-R <-- Site =   88 ..  Bmem = 6.91 MB Rmem = 86.6 MB T = 0.56
+ INIT-R <-- Site =   87 ..  Bmem = 86.6 MB Rmem = 1.07 GB T = 3.62
+ INIT-R <-- Site =   86 ..  Bmem = 1.07 GB Rmem = 1.87 GB T = 14.91
+ INIT-R <-- Site =   85 ..  Bmem = 1.87 GB Rmem = 1.92 GB T = 22.76
+ INIT-R <-- Site =   84 ..  Bmem = 1.92 GB Rmem = 1.96 GB T = 24.92
+ INIT-R <-- Site =   83 ..  Bmem = 1.96 GB Rmem = 3.55 GB T = 28.34
+ INIT-R <-- Site =   82 ..  Bmem = 3.55 GB Rmem = 3.59 GB T = 29.62
+ INIT-R <-- Site =   81 ..  Bmem = 3.59 GB Rmem = 3.61 GB T = 31.15
+ INIT-R <-- Site =   80 ..  Bmem = 3.61 GB Rmem = 3.63 GB T = 31.14
+ INIT-R <-- Site =   79 ..  Bmem = 3.63 GB Rmem = 3.66 GB T = 31.65
+ INIT-R <-- Site =   78 ..  Bmem = 3.66 GB Rmem = 3.68 GB T = 33.32
+ INIT-R <-- Site =   77 ..  Bmem = 3.68 GB Rmem = 5.33 GB T = 35.41
+ INIT-R <-- Site =   76 ..  Bmem = 5.33 GB Rmem = 5.29 GB T = 35.97
+ INIT-R <-- Site =   75 ..  Bmem = 5.29 GB Rmem = 5.30 GB T = 36.01
+ INIT-R <-- Site =   74 ..  Bmem = 5.30 GB Rmem = 5.30 GB T = 36.54
+ INIT-R <-- Site =   73 ..  Bmem = 5.30 GB Rmem = 5.30 GB T = 35.25
+ INIT-R <-- Site =   72 ..  Bmem = 5.30 GB Rmem = 5.32 GB T = 36.15
+ INIT-R <-- Site =   71 ..  Bmem = 5.32 GB Rmem = 6.95 GB T = 48.65
+ INIT-R <-- Site =   70 ..  Bmem = 6.95 GB Rmem = 6.93 GB T = 50.00
+ INIT-R <-- Site =   69 ..  Bmem = 6.93 GB Rmem = 6.92 GB T = 49.06
+ INIT-R <-- Site =   68 ..  Bmem = 6.92 GB Rmem = 6.92 GB T = 52.09
+ INIT-R <-- Site =   67 ..  Bmem = 6.92 GB Rmem = 6.93 GB T = 50.48
+ INIT-R <-- Site =   66 ..  Bmem = 6.93 GB Rmem = 6.92 GB T = 48.94
+ INIT-R <-- Site =   65 ..  Bmem = 6.92 GB Rmem = 8.61 GB T = 63.68
+ INIT-R <-- Site =   64 ..  Bmem = 8.61 GB Rmem = 8.53 GB T = 61.97
+ INIT-R <-- Site =   63 ..  Bmem = 8.53 GB Rmem = 8.54 GB T = 63.61
+ INIT-R <-- Site =   62 ..  Bmem = 8.54 GB Rmem = 8.53 GB T = 60.91
+ INIT-R <-- Site =   61 ..  Bmem = 8.53 GB Rmem = 8.54 GB T = 62.28
+ INIT-R <-- Site =   60 ..  Bmem = 8.54 GB Rmem = 8.54 GB T = 58.68
+ INIT-R <-- Site =   59 ..  Bmem = 8.54 GB Rmem = 10.2 GB T = 68.49
+ INIT-R <-- Site =   58 ..  Bmem = 10.2 GB Rmem = 10.1 GB T = 68.03
+ INIT-R <-- Site =   57 ..  Bmem = 10.1 GB Rmem = 10.1 GB T = 67.84
+ INIT-R <-- Site =   56 ..  Bmem = 10.1 GB Rmem = 10.1 GB T = 71.62
+ INIT-R <-- Site =   55 ..  Bmem = 10.1 GB Rmem = 10.1 GB T = 70.01
+ INIT-R <-- Site =   54 ..  Bmem = 10.1 GB Rmem = 10.1 GB T = 73.93
+ INIT-R <-- Site =   53 ..  Bmem = 10.1 GB Rmem = 11.8 GB T = 76.16
+ INIT-R <-- Site =   52 ..  Bmem = 11.8 GB Rmem = 11.7 GB T = 74.46
+ INIT-R <-- Site =   51 ..  Bmem = 11.7 GB Rmem = 11.7 GB T = 74.74
+ INIT-R <-- Site =   50 ..  Bmem = 11.7 GB Rmem = 11.7 GB T = 73.59
+ INIT-R <-- Site =   49 ..  Bmem = 11.7 GB Rmem = 11.7 GB T = 70.61
+ INIT-R <-- Site =   48 ..  Bmem = 11.7 GB Rmem = 11.7 GB T = 70.03
+ INIT-R <-- Site =   47 ..  Bmem = 11.7 GB Rmem = 13.3 GB T = 82.45
+ INIT-R <-- Site =   46 ..  Bmem = 13.3 GB Rmem = 13.3 GB T = 89.31
+ INIT-R <-- Site =   45 ..  Bmem = 13.3 GB Rmem = 13.3 GB T = 87.19
+ INIT-R <-- Site =   44 ..  Bmem = 13.3 GB Rmem = 13.3 GB T = 86.35
+ INIT-R <-- Site =   43 ..  Bmem = 13.3 GB Rmem = 13.3 GB T = 85.55
+ INIT-R <-- Site =   42 ..  Bmem = 13.3 GB Rmem = 13.3 GB T = 88.29
+ INIT-R <-- Site =   41 ..  Bmem = 13.3 GB Rmem = 15.0 GB T = 100.65
+ INIT-R <-- Site =   40 ..  Bmem = 15.0 GB Rmem = 14.9 GB T = 100.66
+ INIT-R <-- Site =   39 ..  Bmem = 14.9 GB Rmem = 15.0 GB T = 100.20
+ INIT-R <-- Site =   38 ..  Bmem = 15.0 GB Rmem = 14.9 GB T = 98.51
+ INIT-R <-- Site =   37 ..  Bmem = 14.9 GB Rmem = 15.0 GB T = 93.74
+ INIT-R <-- Site =   36 ..  Bmem = 15.0 GB Rmem = 15.0 GB T = 95.04
+ INIT-R <-- Site =   35 ..  Bmem = 15.0 GB Rmem = 16.6 GB T = 105.74
+ INIT-R <-- Site =   34 ..  Bmem = 16.6 GB Rmem = 16.6 GB T = 102.48
+ INIT-R <-- Site =   33 ..  Bmem = 16.6 GB Rmem = 16.6 GB T = 106.25
+ INIT-R <-- Site =   32 ..  Bmem = 16.6 GB Rmem = 16.6 GB T = 104.34
+ INIT-R <-- Site =   31 ..  Bmem = 16.6 GB Rmem = 16.6 GB T = 103.90
+ INIT-R <-- Site =   30 ..  Bmem = 16.6 GB Rmem = 16.6 GB T = 101.91
+ INIT-R <-- Site =   29 ..  Bmem = 16.6 GB Rmem = 18.3 GB T = 107.70
+ INIT-R <-- Site =   28 ..  Bmem = 18.3 GB Rmem = 18.2 GB T = 113.33
+ INIT-R <-- Site =   27 ..  Bmem = 18.2 GB Rmem = 18.2 GB T = 108.75
+ INIT-R <-- Site =   26 ..  Bmem = 18.2 GB Rmem = 18.1 GB T = 113.01
+ INIT-R <-- Site =   25 ..  Bmem = 18.1 GB Rmem = 18.2 GB T = 109.70
+ INIT-R <-- Site =   24 ..  Bmem = 18.2 GB Rmem = 18.2 GB T = 109.38
+ INIT-R <-- Site =   23 ..  Bmem = 18.2 GB Rmem = 19.8 GB T = 123.53
+ INIT-R <-- Site =   22 ..  Bmem = 19.8 GB Rmem = 19.8 GB T = 123.03
+ INIT-R <-- Site =   21 ..  Bmem = 19.8 GB Rmem = 19.7 GB T = 117.03
+ INIT-R <-- Site =   20 ..  Bmem = 19.7 GB Rmem = 19.7 GB T = 118.05
+ INIT-R <-- Site =   19 ..  Bmem = 19.7 GB Rmem = 19.7 GB T = 119.15
+ INIT-R <-- Site =   18 ..  Bmem = 19.7 GB Rmem = 19.7 GB T = 121.13
+ INIT-R <-- Site =   17 ..  Bmem = 19.7 GB Rmem = 21.4 GB T = 130.38
+ INIT-R <-- Site =   16 ..  Bmem = 21.4 GB Rmem = 21.2 GB T = 136.66
+ INIT-R <-- Site =   15 ..  Bmem = 21.2 GB Rmem = 21.1 GB T = 129.91
+ INIT-R <-- Site =   14 ..  Bmem = 21.1 GB Rmem = 21.0 GB T = 136.44
+ INIT-R <-- Site =   13 ..  Bmem = 21.0 GB Rmem = 20.9 GB T = 130.52
+ INIT-R <-- Site =   12 ..  Bmem = 20.9 GB Rmem = 20.7 GB T = 131.86
+ INIT-R <-- Site =   11 ..  Bmem = 20.7 GB Rmem = 22.0 GB T = 132.76
+ INIT-R <-- Site =   10 ..  Bmem = 22.0 GB Rmem = 21.6 GB T = 128.49
+ INIT-R <-- Site =    9 ..  Bmem = 21.6 GB Rmem = 21.0 GB T = 123.52
+ INIT-R <-- Site =    8 ..  Bmem = 21.0 GB Rmem = 20.5 GB T = 122.01
+ INIT-R <-- Site =    7 ..  Bmem = 20.5 GB Rmem = 28.1 GB T = 145.24
+ INIT-R <-- Site =    6 ..  Bmem = 28.1 GB Rmem = 42.3 GB T = 270.06
+ INIT-R <-- Site =    5 ..  Bmem = 42.3 GB Rmem = 46.0 GB T = 400.24
+ INIT-R <-- Site =    4 ..  Bmem = 46.0 GB Rmem = 7.01 GB T = 160.50
+ INIT-R <-- Site =    3 ..  Bmem = 7.01 GB Rmem = 61.2 MB T = 12.48
+ INIT-R <-- Site =    2 ..  Bmem = 61.2 MB Rmem = 2.48 MB T = 0.99
+ INIT-R <-- Site =    1 ..  Bmem = 2.48 MB Rmem =  130 KB T = 0.17
+ INIT-R <-- Site =    0 ..  Bmem =  130 KB Rmem = 7.88 KB T = 0.04
+Time init sweep =     7406.440 | MaxBmem = 42.3 GB | MaxRmem = 46.0 GB
+ | Tread = 0.000 | Twrite = 1007.488 | Tfpread = 0.000 | Tfpwrite = 1003.856 | data = 1.09 TB | cpsd = 800 GB | Tasync = 0.000
+
+
+Expectation | Direction =  forward | BRA bond dimension = 32000 | KET bond dimension = 32000
+ --> Site =    0 .. Nterms =          191 Error =  0.000000000000/ 0.000000000000 FLOPS = 2.67e+04 Tmult = 0.25 T = 548.10
+ --> Site =    1 .. Nterms =          189 Error =  0.000000000000/ 0.000000000000 FLOPS = 2.87e+06 Tmult = 0.04 T = 0.45
+ --> Site =    2 .. Nterms =          187 Error =  0.000000000000/ 0.000000000000 FLOPS = 3.58e+07 Tmult = 0.08 T = 0.29
+ --> Site =    3 .. Nterms =          185 Error =  0.000000000000/ 0.000000000000 FLOPS = 9.20e+08 Tmult = 0.11 T = 0.47
+ --> Site =    4 .. Nterms =          183 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.50e+10 Tmult = 0.41 T = 11.54
+ --> Site =    5 .. Nterms =          181 Error =  0.000000000000/ 0.000000000000 FLOPS = 1.40e+11 Tmult = 3.59 T = 59.74
+ --> Site =    6 .. Nterms =          179 Error =  0.000000000000/ 0.000000000000 FLOPS = 1.72e+11 Tmult = 10.32 T = 58.86
+ --> Site =    7 .. Nterms =          177 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.48e+11 Tmult = 9.88 T = 55.71
+ --> Site =    8 .. Nterms =          175 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.47e+11 Tmult = 8.36 T = 235.47
+ --> Site =    9 .. Nterms =          173 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.35e+11 Tmult = 10.59 T = 438.35
+ --> Site =   10 .. Nterms =          171 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.30e+11 Tmult = 9.46 T = 474.05
+ --> Site =   11 .. Nterms =          169 Error =  0.000000000000/ 0.000000000000 FLOPS = 7.47e+11 Tmult = 8.36 T = 428.41
+ --> Site =   12 .. Nterms =          167 Error =  0.000000000000/ 0.000000000000 FLOPS = 4.80e+11 Tmult = 13.33 T = 527.69
+ --> Site =   13 .. Nterms =          165 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.65e+11 Tmult = 9.75 T = 472.70
+ --> Site =   14 .. Nterms =          163 Error =  0.000000000000/ 0.000000000000 FLOPS = 9.40e+11 Tmult = 6.98 T = 556.52
+ --> Site =   15 .. Nterms =          161 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.82e+11 Tmult = 9.75 T = 445.36
+ --> Site =   16 .. Nterms =          159 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.57e+11 Tmult = 10.23 T = 592.79
+ --> Site =   17 .. Nterms =          157 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.74e+11 Tmult = 10.20 T = 452.86
+ --> Site =   18 .. Nterms =          155 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.47e+11 Tmult = 12.41 T = 623.67
+ --> Site =   19 .. Nterms =          153 Error =  0.000000000000/ 0.000000000000 FLOPS = 8.38e+11 Tmult = 8.12 T = 503.63
+ --> Site =   20 .. Nterms =          151 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.27e+11 Tmult = 10.84 T = 600.40
+ --> Site =   21 .. Nterms =          149 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.54e+11 Tmult = 10.42 T = 535.42
+ --> Site =   22 .. Nterms =          147 Error =  0.000000000000/ 0.000000000000 FLOPS = 7.03e+11 Tmult = 9.74 T = 594.41
+ --> Site =   23 .. Nterms =          145 Error =  0.000000000000/ 0.000000000000 FLOPS = 8.46e+11 Tmult = 8.15 T = 554.64
+ --> Site =   24 .. Nterms =          143 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.99e+11 Tmult = 11.43 T = 582.38
+ --> Site =   25 .. Nterms =          141 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.73e+11 Tmult = 11.94 T = 568.54
+ --> Site =   26 .. Nterms =          139 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.31e+11 Tmult = 12.86 T = 562.90
+ --> Site =   27 .. Nterms =          137 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.71e+11 Tmult = 11.99 T = 597.11
+ --> Site =   28 .. Nterms =          135 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.28e+11 Tmult = 10.90 T = 544.89
+ --> Site =   29 .. Nterms =          133 Error =  0.000000000000/ 0.000000000000 FLOPS = 7.60e+11 Tmult = 9.19 T = 597.49
+ --> Site =   30 .. Nterms =          131 Error =  0.000000000000/ 0.000000000000 FLOPS = 7.13e+11 Tmult = 9.60 T = 521.17
+ --> Site =   31 .. Nterms =          129 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.64e+11 Tmult = 10.35 T = 613.99
+ --> Site =   32 .. Nterms =          127 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.76e+11 Tmult = 10.15 T = 473.41
+ --> Site =   33 .. Nterms =          125 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.79e+11 Tmult = 10.11 T = 609.15
+ --> Site =   34 .. Nterms =          123 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.61e+11 Tmult = 10.39 T = 466.47
+ --> Site =   35 .. Nterms =          121 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.68e+11 Tmult = 10.36 T = 621.94
+ --> Site =   36 .. Nterms =          119 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.98e+11 Tmult = 11.46 T = 482.33
+ --> Site =   37 .. Nterms =          117 Error =  0.000000000000/ 0.000000000000 FLOPS = 7.46e+11 Tmult = 9.18 T = 603.98
+ --> Site =   38 .. Nterms =          115 Error =  0.000000000000/ 0.000000000000 FLOPS = 7.65e+11 Tmult = 8.92 T = 514.48
+ --> Site =   39 .. Nterms =          113 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.95e+11 Tmult = 9.84 T = 594.06
+ --> Site =   40 .. Nterms =          111 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.83e+11 Tmult = 9.95 T = 531.86
+ --> Site =   41 .. Nterms =          109 Error =  0.000000000000/ 0.000000000000 FLOPS = 4.26e+11 Tmult = 16.27 T = 579.93
+ --> Site =   42 .. Nterms =          107 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.10e+11 Tmult = 13.26 T = 580.30
+ --> Site =   43 .. Nterms =          105 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.55e+11 Tmult = 12.20 T = 527.08
+ --> Site =   44 .. Nterms =          103 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.66e+11 Tmult = 11.90 T = 566.19
+ --> Site =   45 .. Nterms =          101 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.92e+11 Tmult = 11.39 T = 518.12
+ --> Site =   46 .. Nterms =           99 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.44e+11 Tmult = 12.42 T = 593.07
+ --> Site =   47 .. Nterms =           97 Error =  0.000000000000/ 0.000000000000 FLOPS = 7.61e+11 Tmult = 8.93 T = 473.56
+ --> Site =   48 .. Nterms =           95 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.99e+11 Tmult = 11.27 T = 601.30
+ --> Site =   49 .. Nterms =           93 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.13e+11 Tmult = 10.98 T = 469.64
+ --> Site =   50 .. Nterms =           91 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.77e+11 Tmult = 11.67 T = 592.21
+ --> Site =   51 .. Nterms =           89 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.35e+11 Tmult = 10.66 T = 515.43
+ --> Site =   52 .. Nterms =           87 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.53e+11 Tmult = 12.24 T = 570.66
+ --> Site =   53 .. Nterms =           85 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.59e+11 Tmult = 10.51 T = 545.95
+ --> Site =   54 .. Nterms =           83 Error =  0.000000000000/ 0.000000000000 FLOPS = 4.93e+11 Tmult = 13.79 T = 570.99
+ --> Site =   55 .. Nterms =           81 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.98e+11 Tmult = 11.43 T = 563.07
+ --> Site =   56 .. Nterms =           79 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.60e+11 Tmult = 12.19 T = 549.94
+ --> Site =   57 .. Nterms =           77 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.54e+11 Tmult = 12.34 T = 601.90
+ --> Site =   58 .. Nterms =           75 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.29e+11 Tmult = 10.89 T = 481.68
+ --> Site =   59 .. Nterms =           73 Error =  0.000000000000/ 0.000000000000 FLOPS = 7.45e+11 Tmult = 9.29 T = 605.47
+ --> Site =   60 .. Nterms =           71 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.10e+11 Tmult = 11.25 T = 488.21
+ --> Site =   61 .. Nterms =           69 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.88e+11 Tmult = 11.67 T = 602.87
+ --> Site =   62 .. Nterms =           67 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.93e+11 Tmult = 11.55 T = 472.55
+ --> Site =   63 .. Nterms =           65 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.78e+11 Tmult = 11.88 T = 613.82
+ --> Site =   64 .. Nterms =           63 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.96e+11 Tmult = 11.48 T = 458.41
+ --> Site =   65 .. Nterms =           61 Error =  0.000000000000/ 0.000000000000 FLOPS = 7.89e+11 Tmult = 8.85 T = 569.98
+ --> Site =   66 .. Nterms =           59 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.79e+11 Tmult = 11.82 T = 485.06
+ --> Site =   67 .. Nterms =           57 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.76e+11 Tmult = 11.88 T = 595.17
+ --> Site =   68 .. Nterms =           55 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.70e+11 Tmult = 11.98 T = 504.37
+ --> Site =   69 .. Nterms =           53 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.73e+11 Tmult = 11.94 T = 545.05
+ --> Site =   70 .. Nterms =           51 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.67e+11 Tmult = 10.27 T = 541.64
+ --> Site =   71 .. Nterms =           49 Error =  0.000000000000/ 0.000000000000 FLOPS = 7.58e+11 Tmult = 9.09 T = 552.86
+ --> Site =   72 .. Nterms =           47 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.90e+11 Tmult = 11.59 T = 561.59
+ --> Site =   73 .. Nterms =           45 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.19e+11 Tmult = 10.99 T = 510.60
+ --> Site =   74 .. Nterms =           43 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.76e+11 Tmult = 10.05 T = 583.32
+ --> Site =   75 .. Nterms =           41 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.36e+11 Tmult = 10.67 T = 515.37
+ --> Site =   76 .. Nterms =           39 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.65e+11 Tmult = 12.00 T = 588.82
+ --> Site =   77 .. Nterms =           37 Error =  0.000000000000/ 0.000000000000 FLOPS = 7.51e+11 Tmult = 9.13 T = 493.76
+ --> Site =   78 .. Nterms =           35 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.64e+11 Tmult = 11.89 T = 593.35
+ --> Site =   79 .. Nterms =           33 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.07e+11 Tmult = 10.93 T = 452.76
+ --> Site =   80 .. Nterms =           31 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.92e+11 Tmult = 11.05 T = 575.04
+ --> Site =   81 .. Nterms =           29 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.96e+11 Tmult = 10.86 T = 425.72
+ --> Site =   82 .. Nterms =           27 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.81e+11 Tmult = 10.99 T = 542.52
+ --> Site =   83 .. Nterms =           25 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.90e+11 Tmult = 9.02 T = 423.72
+ --> Site =   84 .. Nterms =           23 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.69e+11 Tmult = 10.46 T = 529.97
+ --> Site =   85 .. Nterms =           21 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.58e+11 Tmult = 10.16 T = 446.74
+ --> Site =   86 .. Nterms =           19 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.51e+11 Tmult = 9.80 T = 457.92
+ --> Site =   87 .. Nterms =           17 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.19e+11 Tmult = 8.47 T = 458.26
+ --> Site =   88 .. Nterms =           15 Error =  0.000000000000/ 0.000000000000 FLOPS = 5.00e+11 Tmult = 3.43 T = 1727.50
+ --> Site =   89 .. Nterms =           13 Error =  0.000000000000/ 0.000000000000 FLOPS = 3.22e+11 Tmult = 1.42 T = 4725.65
+ --> Site =   90 .. Nterms =           11 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.41e+10 Tmult = 0.34 T = 3898.54
+ --> Site =   91 .. Nterms =            9 Error =  0.000000000000/ 0.000000000000 FLOPS = 1.04e+09 Tmult = 0.11 T = 247.30
+ --> Site =   92 .. Nterms =            7 Error =  0.000000000000/ 0.000000000000 FLOPS = 1.20e+07 Tmult = 0.03 T = 1.48
+ --> Site =   93 .. Nterms =            5 Error =  0.000000000000/ 0.000000000000 FLOPS = 6.63e+04 Tmult = 0.09 T = 0.27
+ --> Site =   94 .. Nterms =            4 Error =  0.000000000000/ 0.000000000000 FLOPS = 1.64e+03 Tmult = 0.13 T = 0.22
+ --> Site =   95 .. Nterms =            0 Error =  0.000000000000/ 0.000000000000 FLOPS = 0.00e+00 Tmult = 0.00 T = 0.02
+Time elapsed =  53954.619
+Time sweep =    53954.619 | 495 TFLOP/SWP
+ | Tcomm = 52.834 | Tidle = 40999.850 | Twait = 0.000
+ | Dmem = 62.2 GB (26%) | Imem = 12.5 KB (67%) | Hmem = 46.0 GB | Wmem = 511 MB | MaxBmem = 5.38 GB | MaxRmem = 5.32 GB
+ | Tread = 1101.626 | Twrite = 158.899 | Tfpread = 1092.704 | Tfpwrite = 157.739 | data = 219 GB | cpsd = 146 GB | Tasync = 0.000
+ | Trot = 1981.467 | Tctr = 84.902 | Tint = 0.067 | Tmid = 0.000 | Tdctr = 0.002 | Tdiag = 0.015 | Tinfo = 67.305
+ | Teff = 1423.137 | Texpt = 890.923 | Tblk = 53407.529 | Tmve = 547.064
+
+NPDM Sorting | Nsites =    96 | Nmaxops =  2 | DotSite = 0 | SymbolFree = T | Compressed = T | LowMem = F | Mem = 72.0 KB
+ Site =     0 ..  T = 0.707
+ Site =     1 ..  T = 0.155
+ Site =     2 ..  T = 0.036
+ Site =     3 ..  T = 0.018
+ Site =     4 ..  T = 0.014
+ Site =     5 ..  T = 0.007
+ Site =     6 ..  T = 0.017
+ Site =     7 ..  T = 0.036
+ Site =     8 ..  T = 0.037
+ Site =     9 ..  T = 0.002
+ Site =    10 ..  T = 0.012
+ Site =    11 ..  T = 0.017
+ Site =    12 ..  T = 0.029
+ Site =    13 ..  T = 0.013
+ Site =    14 ..  T = 0.007
+ Site =    15 ..  T = 0.022
+ Site =    16 ..  T = 0.011
+ Site =    17 ..  T = 0.002
+ Site =    18 ..  T = 0.003
+ Site =    19 ..  T = 0.003
+ Site =    20 ..  T = 0.004
+ Site =    21 ..  T = 0.010
+ Site =    22 ..  T = 0.019
+ Site =    23 ..  T = 0.014
+ Site =    24 ..  T = 0.018
+ Site =    25 ..  T = 0.004
+ Site =    26 ..  T = 0.003
+ Site =    27 ..  T = 0.012
+ Site =    28 ..  T = 0.008
+ Site =    29 ..  T = 0.028
+ Site =    30 ..  T = 0.007
+ Site =    31 ..  T = 0.005
+ Site =    32 ..  T = 0.005
+ Site =    33 ..  T = 0.001
+ Site =    34 ..  T = 0.001
+ Site =    35 ..  T = 0.010
+ Site =    36 ..  T = 0.028
+ Site =    37 ..  T = 0.006
+ Site =    38 ..  T = 0.002
+ Site =    39 ..  T = 0.001
+ Site =    40 ..  T = 0.002
+ Site =    41 ..  T = 0.001
+ Site =    42 ..  T = 0.001
+ Site =    43 ..  T = 0.001
+ Site =    44 ..  T = 0.001
+ Site =    45 ..  T = 0.001
+ Site =    46 ..  T = 0.001
+ Site =    47 ..  T = 0.001
+ Site =    48 ..  T = 0.001
+ Site =    49 ..  T = 0.006
+ Site =    50 ..  T = 0.001
+ Site =    51 ..  T = 0.001
+ Site =    52 ..  T = 0.001
+ Site =    53 ..  T = 0.001
+ Site =    54 ..  T = 0.002
+ Site =    55 ..  T = 0.001
+ Site =    56 ..  T = 0.001
+ Site =    57 ..  T = 0.003
+ Site =    58 ..  T = 0.001
+ Site =    59 ..  T = 0.001
+ Site =    60 ..  T = 0.001
+ Site =    61 ..  T = 0.001
+ Site =    62 ..  T = 0.001
+ Site =    63 ..  T = 0.001
+ Site =    64 ..  T = 0.001
+ Site =    65 ..  T = 0.001
+ Site =    66 ..  T = 0.001
+ Site =    67 ..  T = 0.001
+ Site =    68 ..  T = 0.001
+ Site =    69 ..  T = 0.001
+ Site =    70 ..  T = 0.001
+ Site =    71 ..  T = 0.001
+ Site =    72 ..  T = 0.001
+ Site =    73 ..  T = 0.001
+ Site =    74 ..  T = 0.001
+ Site =    75 ..  T = 0.001
+ Site =    76 ..  T = 0.000
+ Site =    77 ..  T = 0.000
+ Site =    78 ..  T = 0.000
+ Site =    79 ..  T = 0.000
+ Site =    80 ..  T = 0.001
+ Site =    81 ..  T = 0.000
+ Site =    82 ..  T = 0.012
+ Site =    83 ..  T = 0.033
+ Site =    84 ..  T = 0.039
+ Site =    85 ..  T = 0.004
+ Site =    86 ..  T = 0.000
+ Site =    87 ..  T = 0.007
+ Site =    88 ..  T = 0.000
+ Site =    89 ..  T = 0.009
+ Site =    90 ..  T = 0.034
+ Site =    91 ..  T = 0.028
+ Site =    92 ..  T = 0.007
+ Site =    93 ..  T = 0.004
+ Site =    94 ..  T = 0.006
+Ttotal =      1.566
+
+MPI FINALIZE: rank 2 of 6
+MPI FINALIZE: rank 3 of 6
+MPI FINALIZE: rank 5 of 6
+MPI FINALIZE: rank 4 of 6
+MPI FINALIZE: rank 1 of 6
+MPI FINALIZE: rank 0 of 6
