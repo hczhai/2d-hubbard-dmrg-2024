@@ -71,7 +71,7 @@ def plot_properties(hd, fn, title, ref=(0, 0)):
         plt.matshow(hd[ref[0], ref[1]].T, cmap='summer_r')
     if hd.shape == (16, 4):
         plt.colorbar(anchor=(-6.8, 0.5), shrink=0.8, aspect=15)
-    elif hd.shape == (8, 8) or hd.shape == (8, ) * 4:
+    elif hd.shape == (8, 8) or hd.shape == (8, ) * 4 or hd.shape == (6, 6) or hd.shape == (6, ) * 4:
         plt.colorbar(anchor=(-11.4, 0.5), shrink=0.8, aspect=15)
     elif hd.shape[-1] == 6:
         plt.colorbar(anchor=(-7.4, 0.5), shrink=0.8, aspect=15)
@@ -123,12 +123,12 @@ def rev_energy_extrapolation(eners, dws, bds, n_sites, xener, xdw, xbd, fn, titl
     plt.savefig(fn, dpi=600)
     return eex * n_sites, rex * n_sites
 
-def analysis(dmrg_fns, rev_fns, prop_fns, n_rev_swps=16, shape=(16, 6), doping='1/16', fid=7, rev=True):
+def analysis(dmrg_fns, rev_fns, prop_fns, n_rev_swps=16, shape=(16, 6), doping='1/16', fid=7, rev=True, maxd=32):
     import os
     n_sites = shape[0] * shape[1]
     n_elec = n_sites - n_sites // int(doping.split('/')[1])
     title = "$%s\\times %s\\ U=8\\ N_e = %s\\ $(%s doping) SU(2) DMRG" % (*shape, n_elec, doping)
-    eners, dws, bds = get_dmrg_energies(dmrg_fns, n_sites, 88 if shape == (16, 4) else (14 if shape == (8, 8) else 10))
+    eners, dws, bds = get_dmrg_energies(dmrg_fns, n_sites, 88 if shape == (16, 4) else (14 if shape == (8, 8) else (100 if shape == (6, 6) else 10)))
     xener, xdw, xbd = eners[-1], dws[-1], bds[-1]
     prefix = "%02d-%dx%d-N%d" % (fid, shape[1], shape[0], n_elec)
     if not os.path.exists(prefix):
@@ -156,19 +156,21 @@ def analysis(dmrg_fns, rev_fns, prop_fns, n_rev_swps=16, shape=(16, 6), doping='
             f.write('    %8s     %13.8f (+/- %10.8f, per-site)\n' % ("", eex / n_sites, rex / n_sites))
 
     hd, hdr, cr, nn = get_properties(*prop_fns, shape=shape)
-    ref = {(8, 8): (4, 4), (16, 6): (7, 3), (16, 8): (7, 4), (16, 4): (7, 2)}[shape]
-    write_properties(hd, prefix + "/01-hole-density-D32k.txt", "hole density (D=32k)")
-    write_properties(hdr, prefix + "/02-hole-density-D16k.txt", "hole density (D=16k)")
-    write_properties(cr, prefix + "/03-spin-correlation-D32k.txt", "<S(X1,Y1).S(X2,Y2)> (D=32k)")
-    write_properties(nn, prefix + "/04-charge-correlation-D32k.txt", "<N(X1,Y1).N(X2,Y2)> (D=32k)")
-    plot_properties(hd, prefix + "/01-hole-density-D32k.png",
-        title="$\\mathbf{Hole\\ Density}$ $%s\\times %s\\ (U=8, %s\\ \\mathrm{doping})$ SU(2) DMRG $D=32k$" % (*shape, doping))
-    plot_properties(hdr, prefix + "/02-hole-density-D16k.png",
-        title="$\\mathbf{Hole\\ Density}$ $%s\\times %s\\ (U=8, %s\\ \\mathrm{doping})$ SU(2) DMRG $D=16k$" % (*shape, doping))
-    plot_properties(cr, prefix + "/03-spin-correlation-D32k.png", ref=ref,
-        title="$\\mathbf{\\langle S_{%s,%s}\\cdot S_{x,y}\\rangle}$ $%s\\times %s\\ (U=8, %s\\ \\mathrm{doping})$ SU(2) DMRG $D=32k$" % (*ref, *shape, doping))
-    plot_properties(nn, prefix + "/04-charge-correlation-D32k.png", ref=ref,
-        title="$\\mathbf{\\langle N_{%s,%s}\\cdot N_{x,y}\\rangle}$ $%s\\times %s\\ (U=8, %s\\ \\mathrm{doping})$ SU(2) DMRG $D=32k$" % (*ref, *shape, doping))
+    ref = {(6, 6): (3, 3), (8, 8): (4, 4), (16, 6): (7, 3), (16, 8): (7, 4), (16, 4): (7, 2)}[shape]
+    write_properties(hd, prefix + "/01-hole-density-D%sk.txt" % maxd, "hole density (D=%sk)" % maxd)
+    if prop_fns[-1] != prop_fns[0]:
+        write_properties(hdr, prefix + "/02-hole-density-D16k.txt", "hole density (D=16k)")
+    write_properties(cr, prefix + "/03-spin-correlation-D%sk.txt" % maxd, "<S(X1,Y1).S(X2,Y2)> (D=%sk)" % maxd)
+    write_properties(nn, prefix + "/04-charge-correlation-D%sk.txt" % maxd, "<N(X1,Y1).N(X2,Y2)> (D=%sk)" % maxd)
+    plot_properties(hd, prefix + "/01-hole-density-D%sk.png" % maxd,
+        title="$\\mathbf{Hole\\ Density}$ $%s\\times %s\\ (U=8, %s\\ \\mathrm{doping})$ SU(2) DMRG $D=%sk$" % (*shape, doping, maxd))
+    if prop_fns[-1] != prop_fns[0]:
+        plot_properties(hdr, prefix + "/02-hole-density-D16k.png",
+            title="$\\mathbf{Hole\\ Density}$ $%s\\times %s\\ (U=8, %s\\ \\mathrm{doping})$ SU(2) DMRG $D=16k$" % (*shape, doping))
+    plot_properties(cr, prefix + "/03-spin-correlation-D%sk.png" % maxd, ref=ref,
+        title="$\\mathbf{\\langle S_{%s,%s}\\cdot S_{x,y}\\rangle}$ $%s\\times %s\\ (U=8, %s\\ \\mathrm{doping})$ SU(2) DMRG $D=%sk$" % (*ref, *shape, doping, maxd))
+    plot_properties(nn, prefix + "/04-charge-correlation-D%sk.png" % maxd, ref=ref,
+        title="$\\mathbf{\\langle N_{%s,%s}\\cdot N_{x,y}\\rangle}$ $%s\\times %s\\ (U=8, %s\\ \\mathrm{doping})$ SU(2) DMRG $D=%sk$" % (*ref, *shape, doping, maxd))
 
 def analysis_00():
     dmrg_fns = [
@@ -327,6 +329,39 @@ def analysis_08():
     ]
     analysis(dmrg_fns, rev_fns, prop_fns, shape=(16, 6), doping='1/8', fid=8)
 
+def analysis_09():
+    dmrg_fns = [
+        '../09-6x6-N32/00-6x6-NE32.out',
+        '../09-6x6-N32/01-6x6-NE32-re.out',
+        '../09-6x6-N32/01-6x6-NE32-re2.out',
+    ]
+    rev_fns = [
+        '../09-6x6-N32/02-6x6-NE32-rev.out',
+    ]
+    prop_fns = [
+        "../09-6x6-N32/00-1pdm.npy",
+        "../09-6x6-N32/00-corr.npy",
+        "../09-6x6-N32/00-nn.npy",
+        "../09-6x6-N32/00-1pdm.npy"
+    ]
+    analysis(dmrg_fns, rev_fns, prop_fns, shape=(6, 6), doping='1/9', fid=9, maxd=24)
+
+def analysis_10():
+    dmrg_fns = [
+        '../10-6x6-N34/00-6x6-NE34.out',
+        '../10-6x6-N34/01-6x6-NE34-re.out',
+        '../10-6x6-N34/01-6x6-NE34-re2.out',
+    ]
+    rev_fns = [
+        '../10-6x6-N34/02-6x6-NE34-rev.out',
+    ]
+    prop_fns = [
+        "../10-6x6-N34/00-1pdm.npy",
+        "../10-6x6-N34/00-corr.npy",
+        "../10-6x6-N34/00-nn.npy",
+        "../10-6x6-N34/00-1pdm.npy"
+    ]
+    analysis(dmrg_fns, rev_fns, prop_fns, shape=(6, 6), doping='1/18', fid=10, maxd=24)
 
 if __name__ == "__main__":
     analysis_00()
@@ -338,4 +373,5 @@ if __name__ == "__main__":
     analysis_06()
     analysis_07()
     analysis_08()
-    
+    analysis_09()
+    analysis_10()
